@@ -1,18 +1,15 @@
 import React from 'react';
-import { Outlet } from 'react-router-dom';
 
 import './styles.css';
 import CompanyLogo from '../../components/core/CompanyLogo';
 import Person from '../../components/core/Person';
 
-const PageLayout = ({ children, person }) => {
+const ContactPageLayout = ({ children, title, content, email, phone, person }) => {
   return (
-    <div className='page-container'>
-      {children}
-      <Outlet />
+    <div className='contact-container'>
       {person && <Person photo={person} />}
       <CompanyLogo />
     </div>)
 };
 
-export default PageLayout;
+export default ContactPageLayout;

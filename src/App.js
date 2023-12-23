@@ -1,7 +1,7 @@
 import { Routes, Route, Navigate } from 'react-router-dom';
 
-import PageLayout from './layouts/PageLayout';
 import * as Pages from './pages';
+import PageLayout from './layouts/PageLayout';
 import './App.css';
 
 function App() {
@@ -11,12 +11,11 @@ function App() {
       <Routes>
         <Route index path='/' element={<Pages.Welcome />} />
         <Route element={<PageLayout />}>
-          <Route path='sales' element={<Pages.Sales />} />
-          <Route path='operations' element={<Pages.Operations />} />
+          <Route path='sales' element={<h1>Sales</h1>} />
+          <Route path='operations' element={<h1>Operations</h1>} />
           <Route path='me' element={<Pages.Me />} />
-          <Route path='*' element={<Navigate to='/' />} />
         </Route>
-        <Route path='*' element={<Navigate to='/' />} />
+        <Route path='/*' element={<Navigate to='/' />} />
       </Routes>
     </div>
   );

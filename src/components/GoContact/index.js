@@ -5,11 +5,11 @@ import { contactButtonTitles } from '../../Content-Management';
 import ContactButton from '../core/ContactButton';
 import './styles.css';
 
-const Contact = () => (<div className='contact-sector'>
+const GoContact = () => (<div className='contact-sector'>
   {
     contactButtonTitles.map((link, id) => (
       <Link
-        to={link.path}
+        to={`/${link.path}`}
         style={{ textDecoration: 'none' }}
       >
         <ContactButton key={id}>{link.title}</ContactButton>
@@ -17,4 +17,4 @@ const Contact = () => (<div className='contact-sector'>
   };
 </div >);
 
-export default Contact;
+export default GoContact;
