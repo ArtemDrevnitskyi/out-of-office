@@ -25,8 +25,7 @@ export const contactButtonTitles = [
     path: '/operations'
   },
   {
-    title: 'Me...',
-    path: '/me'
+    title: 'Me...'
   }
 ];
 

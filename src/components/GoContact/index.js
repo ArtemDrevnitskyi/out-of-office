@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 
 import { contactButtonTitles } from '../../Content-Management';
 import ContactButton from '../core/ContactButton';
