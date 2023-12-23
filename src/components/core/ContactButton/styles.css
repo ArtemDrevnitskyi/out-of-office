@@ -1,0 +1,34 @@
+.contact-btn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: stretch;
+  padding: 2rem;
+  cursor: pointer;
+  transition-duration: .5s;
+  border-radius: 3em;
+  text-decoration: none;
+}
+
+.contact-btn:hover {
+  background-color: rgba(255, 255, 255, 0.4);
+  box-shadow: 2px 2px 4px rgb(84, 197, 218);
+}
+
+.btn-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-icon > img {
+  width: 70px;
+}
+
+.btn-title {
+  font-size: 7em;
+  font-weight: 800;
+  color: #4472c4;
+  text-shadow: 2px 2px 3px black;
+  text-align: center;
+}

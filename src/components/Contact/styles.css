@@ -1,0 +1,6 @@
+.contact-sector {
+  display: flex;
+  align-items: stretch;
+  width: 100%;
+  justify-content: space-around;
+}

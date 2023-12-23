@@ -4,7 +4,7 @@ import './styles.css';
 
 const CompanyLogo = () => (<div className='logo-container'>
   <img
-    src='/assets/images/logo.png'
+    src='/assets/logo.png'
     alt='Turnkey_logo_image'
     width='100%'
     height='auto'
