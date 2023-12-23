@@ -1,18 +1,14 @@
 import React from 'react';
 
 import './styles.css';
-import CompanyLogo from '../../components/CompanyLogo';
+import CompanyLogo from '../../components/core/CompanyLogo';
+import Person from '../../components/core/Person';
 
-const PageLayout = ({ children, thoughtContent }) => {
+const PageLayout = ({ children, person }) => {
   return (
     <div className='page-container'>
       {children}
-      <div className='bubble-container'>
-        <img
-          src='/assets/images/thought_bubble.png'
-          alt='thought_bubble_image'
-        />
-      </div>
+      {person && <Person photo={person} />}
       <CompanyLogo />
     </div>)
 };

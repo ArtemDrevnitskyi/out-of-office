@@ -2,6 +2,9 @@
   width: 100%!important;
   position: relative!important;
   min-height: 100vh!important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .bubble-container {

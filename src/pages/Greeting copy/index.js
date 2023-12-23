@@ -1,7 +1,7 @@
 import React from 'react';
 
 import './styles.css';
-import CompanyLogo from '../../components/CompanyLogo';
+import CompanyLogo from '../../components/core/CompanyLogo';
 
 const Greeting = () => {
   return (<div className='main-container'>
