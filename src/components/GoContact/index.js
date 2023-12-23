@@ -8,12 +8,8 @@ import './styles.css';
 const GoContact = () => (<div className='contact-sector'>
   {
     contactButtonTitles.map((link, id) => (
-      <Link
-        to={`/${link.path}`}
-        style={{ textDecoration: 'none' }}
-      >
-        <ContactButton key={id}>{link.title}</ContactButton>
-      </Link>))
+      <ContactButton key={id}>{link.title}</ContactButton>
+    ))
   };
 </div >);
 
