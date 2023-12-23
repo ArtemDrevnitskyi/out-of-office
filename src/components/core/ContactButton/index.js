@@ -6,7 +6,7 @@ const ContactButton = ({ children }) => (
   <div className='contact-btn'>
     <div className='btn-icon'>
       <img
-        src='/assets/icons/arrow-down.png'
+        src='%PUBLIC_URL%/assets/icons/arrow-down.png'
         alt='arrow-down-icon'
       />
     </div>
